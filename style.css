@@ -7,6 +7,7 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+
 *,
 ::before,
 ::after {
@@ -19,6 +20,42 @@
   border-color: #e5e7eb;
   /* 2 */
 }
+
+
+.bg-navbar{
+  background-color: #02042a;
+}
+
+.text-lightBlue{
+  color: whitesmoke;
+}
+
+.text-lightBlue:hover{
+  color: #0b72e7;
+}
+
+.bg-lightBlue{
+  background-color:#0b72e7 ;
+}
+
+.borderColor{
+  border:2px solid #0b72e7;
+}
+
+.bg-greenLight{
+  background-color: aquamarine;
+}
+
+
+
+.bg-lightBlue500{
+  background-color:#0b72e7 ;
+}
+
+.text-grayText{
+  color: #9ca3af;
+}
+
 
 ::before,
 ::after {
@@ -2238,6 +2275,8 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(226 232 240 / var(--tw-bg-opacity));
 }
+
+
 
 .bg-slate-300 {
   --tw-bg-opacity: 1;
